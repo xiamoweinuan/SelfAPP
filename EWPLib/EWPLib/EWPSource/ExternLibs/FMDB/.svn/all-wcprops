@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ios/!svn/ver/1546/branches/ReXiu2.0.2-fair/-fno-objc-arc/EWPLib/EWPLib/EWPSource/ExternLibs/FMDB
+END
+FMDatabaseAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/ios/!svn/ver/1546/branches/ReXiu2.0.2-fair/-fno-objc-arc/EWPLib/EWPLib/EWPSource/ExternLibs/FMDB/FMDatabaseAdditions.m
+END
+FMDatabase.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/ios/!svn/ver/1546/branches/ReXiu2.0.2-fair/-fno-objc-arc/EWPLib/EWPLib/EWPSource/ExternLibs/FMDB/FMDatabase.m
+END
+FMDatabaseQueue.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/ios/!svn/ver/1546/branches/ReXiu2.0.2-fair/-fno-objc-arc/EWPLib/EWPLib/EWPSource/ExternLibs/FMDB/FMDatabaseQueue.m
+END
+FMResultSet.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/ios/!svn/ver/1546/branches/ReXiu2.0.2-fair/-fno-objc-arc/EWPLib/EWPLib/EWPSource/ExternLibs/FMDB/FMResultSet.m
+END
+FMDatabasePool.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/ios/!svn/ver/1546/branches/ReXiu2.0.2-fair/-fno-objc-arc/EWPLib/EWPLib/EWPSource/ExternLibs/FMDB/FMDatabasePool.m
+END
