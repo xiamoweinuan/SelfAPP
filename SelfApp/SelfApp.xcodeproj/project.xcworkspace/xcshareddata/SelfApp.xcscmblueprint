@@ -1,5 +1,5 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "27731048C27F097D7E5833F2472FAC9C3220E10C",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1358389E95F9EE2BA4340F6BE0A63729EE56DEFD",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
     "4151f5ca-1f8f-114c-bab6-b7b6c05e1976++9188" : {
 
@@ -7,12 +7,12 @@
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "4151f5ca-1f8f-114c-bab6-b7b6c05e1976++9188" : 0,
-    "27731048C27F097D7E5833F2472FAC9C3220E10C" : 0
+    "1358389E95F9EE2BA4340F6BE0A63729EE56DEFD" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "02148464-2E1B-454A-8BD2-7EFEA22B4A80",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "4151f5ca-1f8f-114c-bab6-b7b6c05e1976++9188" : "ReXiu2.1.0\/",
-    "27731048C27F097D7E5833F2472FAC9C3220E10C" : "SelfAPP\/"
+    "1358389E95F9EE2BA4340F6BE0A63729EE56DEFD" : "SelfAPP\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "SelfApp",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -21,7 +21,7 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xiamoweinuan\/SelfAPP.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "27731048C27F097D7E5833F2472FAC9C3220E10C"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1358389E95F9EE2BA4340F6BE0A63729EE56DEFD"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.1.225\/svn\/ios",

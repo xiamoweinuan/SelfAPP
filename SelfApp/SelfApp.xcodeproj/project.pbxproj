@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		018FE34A1E7A2CE200B6DDE2 /* UIViewController+DeallocSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 018FE3351E7A2CE200B6DDE2 /* UIViewController+DeallocSwizzle.m */; };
+		018FE34B1E7A2CE200B6DDE2 /* UIViewController+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 018FE3371E7A2CE200B6DDE2 /* UIViewController+Helper.m */; };
+		018FE34C1E7A2CE200B6DDE2 /* YMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 018FE33A1E7A2CE200B6DDE2 /* YMButton.m */; };
+		018FE34D1E7A2CE200B6DDE2 /* YMImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 018FE33C1E7A2CE200B6DDE2 /* YMImageView.m */; };
+		018FE34E1E7A2CE200B6DDE2 /* YMLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 018FE33E1E7A2CE200B6DDE2 /* YMLabel.m */; };
+		018FE34F1E7A2CE200B6DDE2 /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 018FE3411E7A2CE200B6DDE2 /* BaseTableView.m */; };
+		018FE3501E7A2CE200B6DDE2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 018FE3431E7A2CE200B6DDE2 /* BaseViewController.m */; };
+		018FE3511E7A2CE200B6DDE2 /* YMBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 018FE3451E7A2CE200B6DDE2 /* YMBaseTableView.m */; };
+		018FE3521E7A2CE200B6DDE2 /* YMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 018FE3471E7A2CE200B6DDE2 /* YMBaseViewController.m */; };
+		018FE3531E7A2CE200B6DDE2 /* YMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 018FE3491E7A2CE200B6DDE2 /* YMTableViewCell.m */; };
 		A112C4EF1CD3636B0035657B /* CommonUtils+Views.m in Sources */ = {isa = PBXBuildFile; fileRef = A112C4EE1CD3636B0035657B /* CommonUtils+Views.m */; };
 		A112C4F61CD89EEB0035657B /* EWPUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A112C4F51CD89EEB0035657B /* EWPUIImageView.m */; };
 		A15247B71CB5084E002C8441 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A15246561CB5084E002C8441 /* MJRefresh.bundle */; };
@@ -164,6 +174,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		018FE3341E7A2CE200B6DDE2 /* UIViewController+DeallocSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DeallocSwizzle.h"; sourceTree = "<group>"; };
+		018FE3351E7A2CE200B6DDE2 /* UIViewController+DeallocSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DeallocSwizzle.m"; sourceTree = "<group>"; };
+		018FE3361E7A2CE200B6DDE2 /* UIViewController+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Helper.h"; sourceTree = "<group>"; };
+		018FE3371E7A2CE200B6DDE2 /* UIViewController+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Helper.m"; sourceTree = "<group>"; };
+		018FE3391E7A2CE200B6DDE2 /* YMButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMButton.h; sourceTree = "<group>"; };
+		018FE33A1E7A2CE200B6DDE2 /* YMButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMButton.m; sourceTree = "<group>"; };
+		018FE33B1E7A2CE200B6DDE2 /* YMImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMImageView.h; sourceTree = "<group>"; };
+		018FE33C1E7A2CE200B6DDE2 /* YMImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMImageView.m; sourceTree = "<group>"; };
+		018FE33D1E7A2CE200B6DDE2 /* YMLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMLabel.h; sourceTree = "<group>"; };
+		018FE33E1E7A2CE200B6DDE2 /* YMLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMLabel.m; sourceTree = "<group>"; };
+		018FE3401E7A2CE200B6DDE2 /* BaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
+		018FE3411E7A2CE200B6DDE2 /* BaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
+		018FE3421E7A2CE200B6DDE2 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		018FE3431E7A2CE200B6DDE2 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		018FE3441E7A2CE200B6DDE2 /* YMBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMBaseTableView.h; sourceTree = "<group>"; };
+		018FE3451E7A2CE200B6DDE2 /* YMBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMBaseTableView.m; sourceTree = "<group>"; };
+		018FE3461E7A2CE200B6DDE2 /* YMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMBaseViewController.h; sourceTree = "<group>"; };
+		018FE3471E7A2CE200B6DDE2 /* YMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMBaseViewController.m; sourceTree = "<group>"; };
+		018FE3481E7A2CE200B6DDE2 /* YMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMTableViewCell.h; sourceTree = "<group>"; };
+		018FE3491E7A2CE200B6DDE2 /* YMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMTableViewCell.m; sourceTree = "<group>"; };
 		A112C4ED1CD3636B0035657B /* CommonUtils+Views.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CommonUtils+Views.h"; sourceTree = "<group>"; };
 		A112C4EE1CD3636B0035657B /* CommonUtils+Views.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CommonUtils+Views.m"; sourceTree = "<group>"; };
 		A112C4F11CD89E6D0035657B /* EWPUIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWPUIImageView.h; sourceTree = "<group>"; };
@@ -506,6 +536,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		018FE3321E7A2CE200B6DDE2 /* CMNLib */ = {
+			isa = PBXGroup;
+			children = (
+				018FE3331E7A2CE200B6DDE2 /* CMNCommon */,
+				018FE3381E7A2CE200B6DDE2 /* CMNControl */,
+				018FE33F1E7A2CE200B6DDE2 /* CMNFramerwork */,
+			);
+			path = CMNLib;
+			sourceTree = "<group>";
+		};
+		018FE3331E7A2CE200B6DDE2 /* CMNCommon */ = {
+			isa = PBXGroup;
+			children = (
+				018FE3341E7A2CE200B6DDE2 /* UIViewController+DeallocSwizzle.h */,
+				018FE3351E7A2CE200B6DDE2 /* UIViewController+DeallocSwizzle.m */,
+				018FE3361E7A2CE200B6DDE2 /* UIViewController+Helper.h */,
+				018FE3371E7A2CE200B6DDE2 /* UIViewController+Helper.m */,
+			);
+			path = CMNCommon;
+			sourceTree = "<group>";
+		};
+		018FE3381E7A2CE200B6DDE2 /* CMNControl */ = {
+			isa = PBXGroup;
+			children = (
+				018FE3391E7A2CE200B6DDE2 /* YMButton.h */,
+				018FE33A1E7A2CE200B6DDE2 /* YMButton.m */,
+				018FE33B1E7A2CE200B6DDE2 /* YMImageView.h */,
+				018FE33C1E7A2CE200B6DDE2 /* YMImageView.m */,
+				018FE33D1E7A2CE200B6DDE2 /* YMLabel.h */,
+				018FE33E1E7A2CE200B6DDE2 /* YMLabel.m */,
+			);
+			path = CMNControl;
+			sourceTree = "<group>";
+		};
+		018FE33F1E7A2CE200B6DDE2 /* CMNFramerwork */ = {
+			isa = PBXGroup;
+			children = (
+				018FE3401E7A2CE200B6DDE2 /* BaseTableView.h */,
+				018FE3411E7A2CE200B6DDE2 /* BaseTableView.m */,
+				018FE3421E7A2CE200B6DDE2 /* BaseViewController.h */,
+				018FE3431E7A2CE200B6DDE2 /* BaseViewController.m */,
+				018FE3441E7A2CE200B6DDE2 /* YMBaseTableView.h */,
+				018FE3451E7A2CE200B6DDE2 /* YMBaseTableView.m */,
+				018FE3461E7A2CE200B6DDE2 /* YMBaseViewController.h */,
+				018FE3471E7A2CE200B6DDE2 /* YMBaseViewController.m */,
+				018FE3481E7A2CE200B6DDE2 /* YMTableViewCell.h */,
+				018FE3491E7A2CE200B6DDE2 /* YMTableViewCell.m */,
+			);
+			path = CMNFramerwork;
+			sourceTree = "<group>";
+		};
 		A112C4F01CD89E460035657B /* EWPUIImageView */ = {
 			isa = PBXGroup;
 			children = (
@@ -2058,6 +2139,7 @@
 		A1B5EB701CACEEE7008E9573 /* SelfApp */ = {
 			isa = PBXGroup;
 			children = (
+				018FE3321E7A2CE200B6DDE2 /* CMNLib */,
 				A1B5EB8C1CACEF4F008E9573 /* Third */,
 				A1B5EE451CACF534008E9573 /* EWPLib */,
 				A1B5EB741CACEEE7008E9573 /* AppDelegate.h */,
@@ -2202,6 +2284,7 @@
 				A152481C1CB5084F002C8441 /* MJRefreshFooterView.m in Sources */,
 				A15247D51CB5084E002C8441 /* EWPTabBar.m in Sources */,
 				A15248091CB5084F002C8441 /* CustomBadge.m in Sources */,
+				018FE3511E7A2CE200B6DDE2 /* YMBaseTableView.m in Sources */,
 				A15247FF1CB5084F002C8441 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				A112C4F61CD89EEB0035657B /* EWPUIImageView.m in Sources */,
 				A152480F1CB5084F002C8441 /* FMResultSet.m in Sources */,
@@ -2236,24 +2319,29 @@
 				A152480A1CB5084F002C8441 /* DMScrollingTicker.m in Sources */,
 				A1B501101CAD125A008E9573 /* AppManager.m in Sources */,
 				A15247DF1CB5084E002C8441 /* NSData+AES.m in Sources */,
+				018FE34D1E7A2CE200B6DDE2 /* YMImageView.m in Sources */,
 				A15247C81CB5084E002C8441 /* EWPDialog.m in Sources */,
 				A15248431CB5084F002C8441 /* UnderLineLabel.m in Sources */,
 				A15247F71CB5084F002C8441 /* AFHTTPRequestOperationManager.m in Sources */,
 				A15248391CB5084F002C8441 /* UIImageView+WebCache.m in Sources */,
 				A15247BD1CB5084E002C8441 /* DropList.m in Sources */,
+				018FE34F1E7A2CE200B6DDE2 /* BaseTableView.m in Sources */,
 				A15247DE1CB5084E002C8441 /* NSAttributedString+Attributes.m in Sources */,
 				A15247FC1CB5084F002C8441 /* AFSecurityPolicy.m in Sources */,
 				A15247EC1CB5084E002C8441 /* BaseViewController.m in Sources */,
 				A1B501191CAD125A008E9573 /* NdUncaughtExceptionHandler.m in Sources */,
+				018FE34C1E7A2CE200B6DDE2 /* YMButton.m in Sources */,
 				A15247CD1CB5084E002C8441 /* EWPIconLable.m in Sources */,
 				A15247F11CB5084E002C8441 /* FileManager.m in Sources */,
 				A15247EE1CB5084E002C8441 /* HttpModel.m in Sources */,
 				A15247DD1CB5084E002C8441 /* UIPopoverListView.m in Sources */,
 				A152481A1CB5084F002C8441 /* MJRefreshBaseView.m in Sources */,
 				A15247F31CB5084E002C8441 /* TcpServerInterface.m in Sources */,
+				018FE3531E7A2CE200B6DDE2 /* YMTableViewCell.m in Sources */,
 				A15248021CB5084F002C8441 /* UIButton+AFNetworking.m in Sources */,
 				A15248131CB5084F002C8441 /* UIGestureRecognizer+GMGridViewAdditions.m in Sources */,
 				A15247F61CB5084F002C8441 /* AFHTTPRequestOperation.m in Sources */,
+				018FE34B1E7A2CE200B6DDE2 /* UIViewController+Helper.m in Sources */,
 				A15247E41CB5084E002C8441 /* NSString+MD5.m in Sources */,
 				A15247D61CB5084E002C8441 /* EWPSegmentedControl.m in Sources */,
 				A15247DA1CB5084E002C8441 /* EWPTitleButton.m in Sources */,
@@ -2269,9 +2357,12 @@
 				A15247E51CB5084E002C8441 /* NSString+URL.m in Sources */,
 				A15247FA1CB5084F002C8441 /* AFURLSessionManager.m in Sources */,
 				A1ACAA691CD212BB00E67B59 /* EWPLabel.m in Sources */,
+				018FE34A1E7A2CE200B6DDE2 /* UIViewController+DeallocSwizzle.m in Sources */,
 				A15247D41CB5084E002C8441 /* EWPSliderMenuViewController.m in Sources */,
 				A15248171CB5084F002C8441 /* JEProgressView.m in Sources */,
 				A1B501181CAD125A008E9573 /* MMPlaceHolder.m in Sources */,
+				018FE34E1E7A2CE200B6DDE2 /* YMLabel.m in Sources */,
+				018FE3521E7A2CE200B6DDE2 /* YMBaseViewController.m in Sources */,
 				A15248141CB5084F002C8441 /* UIView+GMGridViewAdditions.m in Sources */,
 				A15248101CB5084F002C8441 /* GMGridView.m in Sources */,
 				A15248031CB5084F002C8441 /* UIImageView+AFNetworking.m in Sources */,
@@ -2297,6 +2388,7 @@
 				A15247BF1CB5084E002C8441 /* EWPActivityIndicatorView.m in Sources */,
 				A1B501131CAD125A008E9573 /* CommonUtils+Label.m in Sources */,
 				A1B5F0F21CACF59A008E9573 /* MainViewController.m in Sources */,
+				018FE3501E7A2CE200B6DDE2 /* BaseViewController.m in Sources */,
 				A15247F21CB5084E002C8441 /* HttpSerVerInterface.m in Sources */,
 				A1B5011A1CAD125A008E9573 /* NSObject+Convert.m in Sources */,
 				A15247F81CB5084F002C8441 /* AFURLConnectionOperation.m in Sources */,

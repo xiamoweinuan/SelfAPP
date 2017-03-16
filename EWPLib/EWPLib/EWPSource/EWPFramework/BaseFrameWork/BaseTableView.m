@@ -77,72 +77,72 @@
     self.totalPage = 1;
     self.backgroundColor = [UIColor clearColor];
     
+//    
+//    _tipLabel = [[UIView alloc] initWithFrame:CGRectMake((self.frameWidth -175)/2, (self.frameHeight -175)/2, 175, 175)];
+//    _tipLabel.backgroundColor = [UIColor clearColor];
+//    _tipLabel.hidden = YES;
+//    [self addSubview:_tipLabel];
+//    
+//    _contentImg = [[UIImageView alloc] initWithFrame:CGRectMake(57, 15, 115/2, 62)];
+//    _contentImg.image= [UIImage imageNamed:@"contentImg"];
+//    
+//    _tipLabeltext = [[UILabel alloc] initWithFrame:CGRectMake(10, 29, 100, 20)];
+//    _tipLabeltext.font = [UIFont systemFontOfSize:13.0f];
+//    _tipLabeltext.textColor = [CommonFuction colorFromHexRGB:@"959596"];
+//    _tipLabeltext.textAlignment = NSTextAlignmentCenter;
+//    _tipLabeltext.text = @"暂无数据";
+//    CGSize tipsize = [CommonFuction sizeOfString:_tipLabeltext.text maxWidth:80 maxHeight:14 withFontSize:13.0f];
+//    _tipLabeltext.frame = CGRectMake((175 - tipsize.width)/2, 93, tipsize.width, 14);
+//    
+//    _tipContent2 = [[UILabel alloc] initWithFrame:CGRectMake(10, 62, 100, 20)];
+//    _tipContent2.font = [UIFont systemFontOfSize:15.0f];
+//    _tipContent2.textColor = [CommonFuction colorFromHexRGB:@"959596"];
+//    _tipContent2.textAlignment = NSTextAlignmentCenter;
+//    _tipContent2.text = @"下拉刷新看看～";
+//    CGSize tip2size = [CommonFuction sizeOfString:_tipContent2.text maxWidth:150 maxHeight:14 withFontSize:15.0f];
+//    _tipContent2.frame = CGRectMake((175 - tip2size.width)/2, 117, tip2size.width, 14);
     
-    _tipLabel = [[UIView alloc] initWithFrame:CGRectMake((self.frameWidth -175)/2, (self.frameHeight -175)/2, 175, 175)];
-    _tipLabel.backgroundColor = [UIColor clearColor];
-    _tipLabel.hidden = YES;
-    [self addSubview:_tipLabel];
-    
-    _contentImg = [[UIImageView alloc] initWithFrame:CGRectMake(57, 15, 115/2, 62)];
-    _contentImg.image= [UIImage imageNamed:@"contentImg"];
-    
-    _tipLabeltext = [[UILabel alloc] initWithFrame:CGRectMake(10, 29, 100, 20)];
-    _tipLabeltext.font = [UIFont systemFontOfSize:13.0f];
-    _tipLabeltext.textColor = [CommonFuction colorFromHexRGB:@"959596"];
-    _tipLabeltext.textAlignment = NSTextAlignmentCenter;
-    _tipLabeltext.text = @"暂无数据";
-    CGSize tipsize = [CommonFuction sizeOfString:_tipLabeltext.text maxWidth:80 maxHeight:14 withFontSize:13.0f];
-    _tipLabeltext.frame = CGRectMake((175 - tipsize.width)/2, 93, tipsize.width, 14);
-    
-    _tipContent2 = [[UILabel alloc] initWithFrame:CGRectMake(10, 62, 100, 20)];
-    _tipContent2.font = [UIFont systemFontOfSize:15.0f];
-    _tipContent2.textColor = [CommonFuction colorFromHexRGB:@"959596"];
-    _tipContent2.textAlignment = NSTextAlignmentCenter;
-    _tipContent2.text = @"下拉刷新看看～";
-    CGSize tip2size = [CommonFuction sizeOfString:_tipContent2.text maxWidth:150 maxHeight:14 withFontSize:15.0f];
-    _tipContent2.frame = CGRectMake((175 - tip2size.width)/2, 117, tip2size.width, 14);
-    
-    
-    _updateView = [[UIImageView alloc] initWithFrame:CGRectMake((175 - 12)/2, 143, 12, 16)];
-    _updateView.image = [UIImage imageNamed:@"update"];
-    
-    
-    [_tipLabel addSubview:_tipLabeltext];
-    [_tipLabel addSubview:_contentImg];
-    [_tipLabel addSubview:_tipContent2];
-    [_tipLabel addSubview:_updateView];
-
-    
-    
-    
-    
-    
-    
-    
-    _tipContent = [[UILabel alloc] initWithFrame:CGRectMake(0, (CGRectGetHeight(frame) - 20) / 2, frame.size.width, 20)];
-    _tipContent.textColor = [UIColor colorWithRed:154.0/255.0f green:145.0/255.0f blue:141.0/255.0f alpha:1.0];
-    _tipContent.backgroundColor = [UIColor clearColor];
-    _tipContent.textAlignment = NSTextAlignmentCenter;
-    _tipContent.font = [UIFont systemFontOfSize:13.0f];
-    _tipContent.text = nil;// NOT_HAVE_DATA;
-    [self addSubview:_tipContent];
-    
-    _contentImg = [[UIImageView alloc] initWithFrame:CGRectMake(0, 430, 115/2, 124/2)];
-    [self addSubview:_contentImg];
-    
-    _tipContent2 = [[UILabel alloc] initWithFrame:CGRectMake(0, (CGRectGetHeight(frame) - 20) / 2, frame.size.width, 20)];
-    _tipContent2.textColor = [UIColor colorWithRed:154.0/255.0f green:145.0/255.0f blue:141.0/255.0f alpha:1.0];
-    _tipContent2.backgroundColor = [UIColor clearColor];
-    _tipContent2.textAlignment = NSTextAlignmentCenter;
-    _tipContent2.font = [UIFont systemFontOfSize:15.0f];
-    _tipContent2.text = nil;// NOT_HAVE_DATA;
-    [self addSubview:_tipContent2];
-    
-    _updateView = [[UIImageView alloc] initWithFrame:CGRectMake(0, (CGRectGetHeight(frame) - 20) / 2, frame.size.width, 20)];
-    [self addSubview:_updateView];
+//    
+//    _updateView = [[UIImageView alloc] initWithFrame:CGRectMake((175 - 12)/2, 143, 12, 16)];
+//    _updateView.image = [UIImage imageNamed:@"update"];
+//    
+//    
+//    [_tipLabel addSubview:_tipLabeltext];
+//    [_tipLabel addSubview:_contentImg];
+//    [_tipLabel addSubview:_tipContent2];
+//    [_tipLabel addSubview:_updateView];
 //
-//    _controlNoDataView = [[UIControl alloc]initWithFrame:CGRectMake(0, (CGRectGetHeight(frame) - 110) / 2, SCREEN_WIDTH, 110)];
-//    UIImageView* imageViewPhoto = [UIImageView alloc]initWithFrame:CGRectMake(<#CGFloat x#>, <#CGFloat y#>, <#CGFloat width#>, <#CGFloat height#>)
+//    
+//    
+//    
+//    
+//    
+//    
+//    
+//    _tipContent = [[UILabel alloc] initWithFrame:CGRectMake(0, (CGRectGetHeight(frame) - 20) / 2, frame.size.width, 20)];
+//    _tipContent.textColor = [UIColor colorWithRed:154.0/255.0f green:145.0/255.0f blue:141.0/255.0f alpha:1.0];
+//    _tipContent.backgroundColor = [UIColor clearColor];
+//    _tipContent.textAlignment = NSTextAlignmentCenter;
+//    _tipContent.font = [UIFont systemFontOfSize:13.0f];
+//    _tipContent.text = nil;// NOT_HAVE_DATA;
+//    [self addSubview:_tipContent];
+//    
+//    _contentImg = [[UIImageView alloc] initWithFrame:CGRectMake(0, 430, 115/2, 124/2)];
+//    [self addSubview:_contentImg];
+//    
+//    _tipContent2 = [[UILabel alloc] initWithFrame:CGRectMake(0, (CGRectGetHeight(frame) - 20) / 2, frame.size.width, 20)];
+//    _tipContent2.textColor = [UIColor colorWithRed:154.0/255.0f green:145.0/255.0f blue:141.0/255.0f alpha:1.0];
+//    _tipContent2.backgroundColor = [UIColor clearColor];
+//    _tipContent2.textAlignment = NSTextAlignmentCenter;
+//    _tipContent2.font = [UIFont systemFontOfSize:15.0f];
+//    _tipContent2.text = nil;// NOT_HAVE_DATA;
+//    [self addSubview:_tipContent2];
+//    
+//    _updateView = [[UIImageView alloc] initWithFrame:CGRectMake(0, (CGRectGetHeight(frame) - 20) / 2, frame.size.width, 20)];
+//    [self addSubview:_updateView];
+////
+////    _controlNoDataView = [[UIControl alloc]initWithFrame:CGRectMake(0, (CGRectGetHeight(frame) - 110) / 2, SCREEN_WIDTH, 110)];
+////    UIImageView* imageViewPhoto = [UIImageView alloc]initWithFrame:CGRectMake(<#CGFloat x#>, <#CGFloat y#>, <#CGFloat width#>, <#CGFloat height#>)
     
   
 }
@@ -363,35 +363,35 @@
 
 - (void)refreshViewBeginRefreshing:(MJRefreshBaseView *)refreshView
 {
-    self.tipLabel.hidden = YES;
-    
-    if (_header == refreshView)
-    {
-        if (self.baseDelegate && [self.baseDelegate respondsToSelector:@selector(refreshData)]) {
-            _curentPage = 1;
-            [self.baseDelegate refreshData];
-        }
-    }
-    else
-    {
-        if ( _curentPage < _totalPage)
-        {
-            
-            if (self.baseDelegate && [self.baseDelegate respondsToSelector:@selector(loadMorData)]) {
-                _curentPage++;
-                [self.baseDelegate loadMorData];
-            }
-        }
-        else
-        {
-            
-            [self performSelector:@selector(reloadData) withObject:nil afterDelay:0.1];
-            /*最后一页提示*/
-            //            [self MsgBox:@"\n已经是最后一页"];
-            //            [NSTimer scheduledTimerWithTimeInterval:0.5 target:self.tableView selector:@selector(reloadData) userInfo:nil repeats:NO];
-        }
-        
-    }
+//    self.tipLabel.hidden = YES;
+//    
+//    if (_header == refreshView)
+//    {
+//        if (self.baseDelegate && [self.baseDelegate respondsToSelector:@selector(refreshData)]) {
+//            _curentPage = 1;
+//            [self.baseDelegate refreshData];
+//        }
+//    }
+//    else
+//    {
+//        if ( _curentPage < _totalPage)
+//        {
+//            
+//            if (self.baseDelegate && [self.baseDelegate respondsToSelector:@selector(loadMorData)]) {
+//                _curentPage++;
+//                [self.baseDelegate loadMorData];
+//            }
+//        }
+//        else
+//        {
+//            
+//            [self performSelector:@selector(reloadData) withObject:nil afterDelay:0.1];
+//            /*最后一页提示*/
+//            //            [self MsgBox:@"\n已经是最后一页"];
+//            //            [NSTimer scheduledTimerWithTimeInterval:0.5 target:self.tableView selector:@selector(reloadData) userInfo:nil repeats:NO];
+//        }
+//        
+//    }
 }
 /*
  // Only override drawRect: if you perform custom drawing.

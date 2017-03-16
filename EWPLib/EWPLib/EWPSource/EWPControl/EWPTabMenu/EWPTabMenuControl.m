@@ -153,12 +153,12 @@
             {
                 viewController = [[BaseViewController alloc] init];
             }
-            viewController.baseTabMenuControl = self;
-            viewController.view.frame = CGRectMake(self.scrollView.frame.size.width * nIndex, 0, self.scrollView.frame.size.width, self.scrollView.frame.size.height);
-            viewController.bFirstViewWillAppear = NO;
-            [self.scrollView addSubview:viewController.view];
-            viewController.bFirstViewWillAppear = YES;
-            [self.tabViewControllerMArray addObject:viewController];
+//            viewController.baseTabMenuControl = self;
+//            viewController.view.frame = CGRectMake(self.scrollView.frame.size.width * nIndex, 0, self.scrollView.frame.size.width, self.scrollView.frame.size.height);
+//            viewController.bFirstViewWillAppear = NO;
+//            [self.scrollView addSubview:viewController.view];
+//            viewController.bFirstViewWillAppear = YES;
+//            [self.tabViewControllerMArray addObject:viewController];
         }
     }
     self.scrollView.contentSize = CGSizeMake(self.scrollView.frame.size.width * tabCount, 0);
